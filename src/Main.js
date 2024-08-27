@@ -1,6 +1,5 @@
 import './App.css';
 import Todo from './app/components/Todo';
-import TodoMain from './app/components/TodoMain';
 import {
   BrowserRouter as Router,
   Routes,
@@ -33,7 +32,7 @@ function App() {
               />
               <Route path="/login" element={<Login />} />
               <Route path="/register" element={<SignUp />} />
-              <Route path="/todo" element={<TodoMain />} />
+              <Route path="/todo" element={<Todo />} />
             </Routes>
           </div>
         </div>
